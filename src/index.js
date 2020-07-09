@@ -7,7 +7,7 @@ import 'tachyons'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello />
+    <Hello extra={'little confused at the beginning'}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
